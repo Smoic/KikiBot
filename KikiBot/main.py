@@ -26,7 +26,7 @@ intents.messages = True
 intents.message_content = True
 economy = Economy()
 TOKEN = (
-    "MTAwNDE3ODYyNDk2Mzk0ODY4NA.GJ0-w1.onXtuO14_F2EkLHOeMBLe49EbVwV2XHxxZAtbc")
+    "")
 bot = commands.Bot(command_prefix='!', case_insensitive=True, intents=intents)
 
 bot.remove_command("help")
